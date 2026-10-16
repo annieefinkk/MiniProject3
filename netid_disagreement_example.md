@@ -1,16 +1,19 @@
+# Disagreement Examples — afink12 & bxy539
 
-# Disagreement Examples — YOUR_NET_ID & TEAMMATE_NET_ID
-
-## Example 1 — GEOLYTIX/xyz (WhyRecovered)
-**Author:** setup → feature development  
-**Validator:** Continuous updates — no recovery phase  
-**Reason:** No clear inactivity gap.  
+## Example 1 — robotology/ycm (ActivityPattern)
+**Author:** Irregular  
+**Validator:** Declining
+**Reason:** Activity starts to slow down throughout the timeline, following a large spike in the beginning.
 **Resolution:** ValidatorKept.
 
-## Example 2 — arviz-devs/arviz (ActivityPattern)
-Borderline case between steady and bursty; time series shows clear bursts.  
-**Resolution:** AuthorKept.
+## Example 2 —  Geostat-framework (RecentThemes)
+**Author:** Bug fixes Release
+**Validator:** Bug fixes:Documentation updates
+**Reason:** Recent commits include 'solving ASV benchmarking bugs' (2026-10-07), 'Fix README' (2026-10-05), and 'Fix docs' (2026-09-30). Bug fixes are supported, but the recent commits also emphasize documentation and benchmarking. No explicit release commit appears in the displayed sample.
+**Resolution:** ValidatorKept
 
-## Example 3 — flyaflya/causact (Currentstatus)
-Documentation commits debated as active vs maintenance.  
-**Resolution:** Both agreed it's still Active.
+## Example 3 — juliaearth/geostats.jl (RecentThemes)
+**Author:** Release:Automated bot contributions
+**Validator:** Release:Documentation updates
+**Reason:** The author field shows (bot) in the email addresses for the commits.
+**Resolution:** AuthorKept.
