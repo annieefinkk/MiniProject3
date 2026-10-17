@@ -1,22 +1,10 @@
 
-# Validation Reflection — YOUR_NETID_HERE
+# Validation Reflection — afink12
 
-Across the ten projects validated from TEAMMATE_NETID_HERE, agreement between 
-author and validator was extremely high. Most fields matched perfectly before 
-discussion, especially the categorical fields HasRecovered, ActivityPattern, and 
-Currentstatus. Only one real disagreement occurred, in the WhyRecovered field for 
-GEOLYTIX/xyz, where the author interpreted changes in commit themes as a recovery, 
-while I saw continuous development without a real inactivity gap.
+Across the ten projects validated from bxy539, agreement between 
+author and validator was extremely high. We agreed on all HasRecovered and CurrentStatus fields, as the evidence for those is not interpretable and can be found simply by the existence of commits on certain dates. We had a few disagreements for the WhyRecovered field, but they were resolved once a discussion was held about the author's reasoning. Activity pattern and RecentThemes had the most disagreements, which may be because these fields are based on interpretations of the data. However, these conflicts were resolved once a discussion was held.
 
-Several trends were visible across the projects. Long inactivity gaps were often 
-preceded by stabilization work (e.g., bug fixes or cleanup), and recovery tended to 
-coincide with renewed feature development or documentation improvements. Equally 
-important, gaps did not mean project death—multiple repos resumed in meaningful ways.
-Documentation-only commits also counted as genuine activity, which clarified how 
-to classify Currentstatus in borderline cases.
+There were some common signals that preceded long gaps. Many projects had low or no activity following version releases, which included commits for documentation, feature development, and bug fixes. Other gaps were caused by downtime between work cycles (for projects with a cyclical commit timeline pattern). Also, some common triggers for recovery were the need for dependency updates (provoked by automated bot messages or authors themselves), fixing bugs that may have been caught after a release, or starting a new work cycle/sprint (cyclical pattern). Based on all the projects I looked at, gaps followed by a release or feature addition typically don't lead to project death, as most repositories resumed commits after a gap due to the need to upgrade the project or update dependecies/fix bugs to keep the project at its best.
 
-The main pitfalls involved distinguishing between a recovery and a thematic shift 
-within continuous development, and understanding how to classify documentation-heavy 
-periods. Our discussion helped resolve these issues and reinforced the importance 
-of evidence-based coding. This validation exercise showed how adjudication improves 
-quality and consistency, turning individual interpretations into reliable qualitative data.
+One main pitfall occurred in the ActivityPattern field, mainly caused by different interpretations between irregular graphs and other categories. For instance, a commit timeline may appear as decreasing overall, but includes many large activity spikes, which could be interpreted as either declining or irregular, based on how generalized the interpreter chooses to be. These were resolved by looking back at the timeline graphs and discussing our reasoning, which led to agreements afterwards. Another main pitfall was within the RecentThemes field. There are many similarities between the categories, which can lead to different interpretations within the commit messages. For instance, lots of branch merges could be interpreted as cleanup for a release, or merging feature updates into the main branch. This category had many disagreements due to it largely being attributed to the interpretation of the analyst. However, this issue was resolved after we looked back at the commit messages, explained our reasoning, and had insightful discussions that led to aligned agreements.
+
